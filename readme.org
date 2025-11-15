@@ -16,17 +16,17 @@ sudo systemctl enable --now NetworkManager
 #+end_src
 
 git clone:
-```
+#+begin_src sh
 git clone https://github.com/radiaku/mangowc ~/.config/mango
 cd ~/.config/mango
-```
+#+end_src
 
 add this to `~/.bash_profile`:
-```
+#+begin_src sh
 if [[ -z $WAYLAND_DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
   exec mango
 fi
-```
+#+end_src
 
 ** NixOS
 
