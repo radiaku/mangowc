@@ -10,8 +10,6 @@
     "custom/sep",
     "battery",
     "custom/sep",
-    "backlight",
-    "custom/sep",
     "network",
     "custom/sep",
     "cpu",
@@ -23,6 +21,8 @@
     "clock",
     "custom/sep",
     "pulseaudio",
+    "custom/sep",
+    "backlight",
     "custom/sep",
     "tray"
   ],
@@ -89,7 +89,7 @@
   },
   "backlight": {
     "device": "nvidia_wmi_ec_backlight", // change to your device
-    "format": " {percent}%",
+    "format": "💡 {percent}%",
     "tooltip": true,
     "scroll-step": 5,
     "on-scroll-up": "brightnessctl set +5%",
