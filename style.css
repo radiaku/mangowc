@@ -102,3 +102,8 @@ button:hover {
     background-color: #2980b9;
 }
 
+#backlight {
+  padding: 0 8px;
+}
+
+
