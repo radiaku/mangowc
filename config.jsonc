@@ -20,9 +20,9 @@
     "custom/sep",
     "clock",
     "custom/sep",
+    "pulseaudio",
     "tray"
   ],
-
   "clock": {
     "format-alt": "{:%Y-%m-%d}"
   },
@@ -48,7 +48,13 @@
     "format-plugged": "{capacity}% ",
     "format-alt": "Bat {capacity}%",
     "format-time": "{H}:{M}",
-    "format-icons": ["", "", "", "", ""]
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
   },
   "network": {
     "format": "Online",
@@ -72,5 +78,10 @@
   "custom/sep": {
     "format": "|",
     "interval": 0
+  },
+  "pulseaudio": {
+    "format": "{volume}% ",
+    "format-muted": "",
+    "on-click": "pavucontrol-qt"
   }
 }

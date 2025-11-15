@@ -11,7 +11,7 @@ Then install the required dependencies:
 
 #+begin_src sh
 sudo pacman -Sy foot wl-clipboard wmenu grim slurp swaybg firefox ttf-iosevka-nerd waybar wmenu
-yay -S networkmanager network-manager-applet libappinidcator-gtk3
+yay -S networkmanager network-manager-applet libappinidcator-gtk3 pavucontrol-qt
 sudo systemctl enable --now NetworkManager
 #+end_src
 
